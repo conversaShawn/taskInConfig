@@ -3,8 +3,8 @@
 Repro to determine if `cy.task` can be called in the `cypress.config` file.
 
 There are two branches:
-- [works]() - downloads basic extension as expected
-- [doesNotWork]() - uses cy.task in `setupNodeEvents`
+- [works](https://github.com/conversaShawn/taskInConfig/tree/works) - downloads basic extension as expected
+- [doesNotWork](https://github.com/conversaShawn/taskInConfig/tree/doesNotWork) - uses cy.task in `setupNodeEvents`
 
 ## How to reproduce
 
@@ -19,4 +19,3 @@ Run cypress
 ```
 yarn cy:open
 ```
-
