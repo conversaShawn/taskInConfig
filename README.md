@@ -1,26 +1,22 @@
-# Cypress-Undefined
+# Using Task in Config
 
-This is a reproducer for an error where the `cy` and `Cypress` global objects are undefined in the cypress configuration file (`cypress.config.js`). 
+Repro to determine if `cy.task` can be called in the `cypress.config` file.
+
+There are two branches:
+- [works]() - downloads basic extension as expected
+- [doesNotWork]() - uses cy.task in `setupNodeEvents`
 
 ## How to reproduce
 
 Install dependencies
 
-```bash
-yarn install
+```
+yarn
 ```
 
 Run cypress
 
-```bash
+```
 yarn cy:open
 ```
-
-You may have to wait a while, I found that hitting Command + S to save a file triggers the timeout to stop and to spit out the error. You should see this error in the cypress window:
-
-```
-ReferenceError: cy is not defined
-```
-
-![cy is not defined](cyUndefined.png "cy is not defined")
 

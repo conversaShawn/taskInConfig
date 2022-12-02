@@ -2,14 +2,7 @@
   "name": "cypress-undefined",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:Joelasaur/cypress-undefined.git",
-  "author": "Joel Whalen <joel.whalen@updater.com>",
-  "license": "MIT",
-  "scripts": {
-    "cy:open": "cypress open"
-  },
-  "devDependencies": {
-    "cypress": "^11.0.1"
-  },
-  "dependencies": {}
+  "repository": "https://github.com/conversaShawn/taskInConfig.git",
+  "author": "Shawn Harris <shawn.harris3510@gmail.com>",
+  "license": "MIT"
 }
